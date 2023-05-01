@@ -1,0 +1,14 @@
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  border: 1px solid blueviolet;
+  padding: 10px;
+  margin: 10px;
+}
+
+.main-content {
+  text-align: center;
+}
