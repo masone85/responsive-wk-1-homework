@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #d15a7c;
+  --secondary-color: #f6eec7;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 .links {
   display: flex;
   justify-content: center;
@@ -15,15 +21,34 @@
 
 .about-paragraphs {
   display: flex;
-  justify-content: space-evenly;
-  margin: 50px;
-
+  margin: 30px 300px;
   text-align: center;
+}
+
+.about-paragraphs p {
+  margin: 10px 15px;
+  background-color: #f7d695;
+  padding: 10px;
+  line-height: 30px;
+  padding: 35px;
 }
 
 h1,
 h2,
 h3 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
   text-align: center;
 }
 
