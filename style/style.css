@@ -12,3 +12,21 @@
 .main-content {
   text-align: center;
 }
+
+.about-paragraphs {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px;
+
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+}
